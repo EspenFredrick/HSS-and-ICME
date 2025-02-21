@@ -1,0 +1,23 @@
+# OS files that we don't want
+*.DS_store
+*.xml
+
+# Cache files
+*.pyc
+*.pyo
+
+# CSV data files from PySPEDAS
+omni_data/
+themis_data/
+
+# Downloaded CSV files to ignore
+candidate_solar_wind/
+processed_solar_wind/
+
+# Plot folders to ignore
+candidates/
+overlap_plots/
+test-despike/
+candidates_from_filtered/
+candidates_from_ordinary/
+withdeltas/
